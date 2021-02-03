@@ -1,0 +1,10 @@
+arch: 
+  - amd64
+  - ppc64le
+language: node_js
+os: linux
+node_js: 
+  - node
+  - lts/*
+script:
+  - npm install --global
