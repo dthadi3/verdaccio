@@ -4,8 +4,9 @@ arch:
 language: node_js
 os: linux
 node_js: 
-  - node
+#  - node
   - lts/*
+  - 15
 script:
   - npm install --global
   - npm test
