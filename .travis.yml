@@ -5,8 +5,11 @@ language: node_js
 os: linux
 node_js: 
 #  - node
-  - lts/*
-  - 15
+#  - lts/*
+#  - 15
+  - 14
+  - 13
+  - 12
 script:
   - npm install --global
   - npm test
