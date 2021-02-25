@@ -4,10 +4,12 @@ arch:
 language: node_js
 os: linux
 node_js: 
+  - node
   - lts/*
   - 14
   - 13
-  - 12
+allow_failures:
+  - node_js: node
 script:
   - npm install --global
   - npm test
