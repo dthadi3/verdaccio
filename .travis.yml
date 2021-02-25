@@ -8,8 +8,9 @@ node_js:
   - lts/*
   - 14
   - 13
-allow_failures:
-  - node_js: node
+jobs:
+  allow_failures:
+    - node_js: node
 script:
   - npm install --global
   - npm test
